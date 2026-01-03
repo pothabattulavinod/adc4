@@ -26,7 +26,7 @@ jobs:
         run: |
           set -e
 
-          INPUT_URL="https://nw29.seedr.cc/ff_get/5849436921/www.5MovieRulz.condos%20-%20Aan%20Paavam%20Pollathathu%20(2025)%20Telugu%20HQ%20HDRip%20-%20720p%20-%20x264%20-%20(DD_5.1%20-%20192Kbps%20_%20AAC)%20-%201.4GB%20-%20ESub.mkv?st=upkJqhu3v-TvHrFOeYlNmw&e=1767542703"
+          INPUT_URL="https://rd23.seedr.cc/ff_get/5849462636/www.1TamilMV.pink%20-%20Aan%20Paavam%20Pollathathu%20(2025)%20Tamil%20HQ%20HDRip%20-%20720p%20-%20x264%20-%20(DD_5.1%20-%20192Kbps%20_%20AAC)%20-%201.4GB%20-%20ESub.mkv?st=TFSBANFCOUufUO9LmL28xg&e=1767547238"
           OUTPUT_FOLDER="aan"
           mkdir -p "$OUTPUT_FOLDER"
           OUTPUT_PATH="$OUTPUT_FOLDER/playlist.m3u8"
