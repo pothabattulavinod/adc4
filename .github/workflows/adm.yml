@@ -26,8 +26,8 @@ jobs:
         run: |
           set -e
 
-          INPUT_URL="https://nw21.seedr.cc/ff_get/5849478053/www.5MovieRulz.pet%20-%20Joe%20(2023)%20720p%20HQ%20HDRip%20-%20x264%20-%20[Tel%20_%20Mal%20_%20Kan]%20-%20(DD_5.1%20-%20192Kbps)%20-%201.4GB%20-%20ESub.mkv?st=shHLMgFgMgWVqx55AMCmCQ&e=1767549242"
-          OUTPUT_FOLDER="joe"
+          INPUT_URL="https://rd12.seedr.cc/ff_get/5849485767/www.5MovieRulz.camp%20-%20Return%20of%20the%20Dragon%20(2025)%20720p%20Telugu%20HQ%20HDRip%20-%20x264%20-%20(DD_5.1%20-%20192Kbps%20_%20AAC)%20-%201.4GB%20-%20ESub.mkv?st=79noh9ZsRHxNMTuVVZlDfQ&e=1767550695"
+          OUTPUT_FOLDER="rd"
           mkdir -p "$OUTPUT_FOLDER"
           OUTPUT_PATH="$OUTPUT_FOLDER/playlist.m3u8"
 
@@ -68,7 +68,7 @@ jobs:
           git config --global user.name "pothabattulavinod"
           git config --global user.email "vinodyadavpothabattula666@gmail.com"
 
-          git add joe
+          git add rd
 
           if ! git diff-index --quiet HEAD; then
             git commit -m "Add HLS (video copy + Telugu 5.1 audio) [skip ci]"
